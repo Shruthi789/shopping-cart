@@ -11,3 +11,39 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/*First Division Styles */
+.first-division{
+  height:287px;
+  width:100%;
+}
+
+/*Second Division Styles */
+.card-gap{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 7px;
+}
+.card-image{
+  width:300px;
+  height:300px;
+  object-fit: cover;
+}
+.card-actions-align{
+  float:right;
+}
+
+/*Third Division Styles */
+.third-division{
+  background-color:rgb(39, 37, 37);
+  height:120px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.org-div{
+  color:white;
+} 
